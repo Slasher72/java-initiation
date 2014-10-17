@@ -50,4 +50,5 @@ public class AR extends Tarif {
 	{
 		System.out.println(TarifJS+","+TarifNW+".");
 	}
+
 }
