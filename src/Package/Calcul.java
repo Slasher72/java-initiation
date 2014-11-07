@@ -1,5 +1,12 @@
 package Package;
 
+/**
+* Calcul est la classe permettant de calculer le prix.
+*
+* @author PEAN Valentin
+* @version 1.0
+*/
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -52,6 +59,13 @@ public class Calcul
 			e.printStackTrace();
 		}
 	}
+
+
+	/**
+     * Retourne le prix.
+     *
+     * @return un d�cimal prix qui correspond au prix � payer.
+     */
 
 	public static double CalculTarifDepl(int i, Saisie saisies ,List<AR> AR , List<AS> AS) //calculer les frais
 	{

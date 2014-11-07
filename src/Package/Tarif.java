@@ -1,5 +1,12 @@
 package Package;
 
+/**
+* Tarif est la classe regroupant les infos permettant de calculer le tarif
+*
+* @author PEAN Valentin
+* @version 1.0
+*/
+
 public class Tarif {
 
 	private int Dept;
@@ -9,17 +16,37 @@ public class Tarif {
 
 //Accesseurs
 
+/**
+* Accesseur du d�partement
+* @return Num�ro du d�partement
+*/
+
 	public int getDept(){
 		return Dept;
 	}
+
+/**
+* Accesseur de la prise en charge
+* @return Montant de la prise en charge
+*/
 
 	public double getPriseCharge(){
 		return PriseCharge;
 	}
 
+/**
+* Accesseur du tarif horaire jour
+* @return Montant du tarif horaire jour
+*/
+
 	public double getTarifHoraireJ(){
 		return TarifHoraireJ;
 	}
+
+/**
+* Accesseur du tarif horaire nuit we
+* @return Montant du tarif horaire nuit we
+*/
 
 	public double getTarifHoraireNWE(){
 		return TarifHoraireNWE;
@@ -52,6 +79,15 @@ public class Tarif {
 		TarifHoraireNWE = 22.86;
 	}
 
+/**
+* Constructeur
+*
+* @param d�partement (int)
+* @param Prise en charge (double)
+* @param Tarif horaire jour (double)
+* @param Tarif horaire nuit (double)
+*/
+
 	public Tarif( int D, double PC, double THJ, double THN) {
 		this.Dept = D;
 		this.PriseCharge = PC;
@@ -64,6 +100,5 @@ public class Tarif {
 
 
 }
-
 
 

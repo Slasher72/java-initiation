@@ -1,5 +1,12 @@
 package Package;
 
+/**
+* AS est la classe comprenant toutes les infos pour un aller simple.
+*
+* @author PEAN Valentin
+* @version 1.0
+*/
+
 public class AS extends Tarif {
 
 //Attributs
@@ -8,11 +15,18 @@ public class AS extends Tarif {
 	private double TarifJS;
 
 //Accesseurs
-
+/**
+* Accesseur du tarif pour une nuit ou we
+* @return Montant du tarif Nuit we (double)
+*/
 	public double getTarifNW(){
 		return TarifNW;
 	}
 
+/**
+* Accesseur du tarif pour un jour de la semaine
+* @return Montant du tarif Jour semaine (double)
+*/
 	public double getTarifJS(){
 		return TarifJS;
 	}
@@ -34,6 +48,16 @@ public class AS extends Tarif {
 		TarifJS = 1.58;
 	}
 
+/**
+* Constructeur � partir de param�tres
+*
+* @param d�partement (int)
+* @param Prise en charge (double)
+* @param Tarif horaire jour (double)
+* @param Tarif horaire nuit (double)
+* @param Tarif nuit we (double)
+* @param Tarif jour semaine (double)
+*/
 	public AS(int D, double PC, double THJ, double THN, double TNW, double TJS)
 	{
 		super(D, PC,  THJ,  THN);

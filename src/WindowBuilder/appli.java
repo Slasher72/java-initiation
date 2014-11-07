@@ -1,5 +1,8 @@
 package WindowBuilder;
 
+/**
+* appli est la classe permettant de cr�er l'interface homme machine et de calculer le tarif.
+*/
 
 import java.awt.EventQueue;
 

@@ -1,5 +1,7 @@
 package WindowBuilder;
-
+/**
+ * permet de se connecter à la base
+ */
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
